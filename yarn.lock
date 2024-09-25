@@ -4747,7 +4747,7 @@ __metadata:
     react-dom: ^18.2.0
     resize-observer-polyfill: ^1.5.1
     rimraf: ^5.0.1
-    rollup: ^3.26.0
+    rollup: ^3.29.5
     rollup-plugin-esbuild: ^5.0.0
     rollup-plugin-license: ^3.0.1
     rollup-plugin-ts: ^3.2.0
@@ -27216,7 +27216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^2.25.0 || ^3.3.0, rollup@npm:^3.2.5, rollup@npm:^3.26.0, rollup@npm:^3.27.1":
+"rollup@npm:^2.25.0 || ^3.3.0, rollup@npm:^3.2.5, rollup@npm:^3.27.1":
   version: 3.29.4
   resolution: "rollup@npm:3.29.4"
   dependencies:
@@ -27241,6 +27241,20 @@ __metadata:
   bin:
     rollup: dist/bin/rollup
   checksum: 421418687f5dcd7324f4387f203c6bfc7118b7ace789e30f5da022471c43e037a76f5fd93837052754eeeae798a4fb266ac05ccee1e594406d912a59af98dde9
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^3.29.5":
+  version: 3.29.5
+  resolution: "rollup@npm:3.29.5"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: a1fa26f21f0d6cf93b6d05ea284ad5854905b585f28a14c27d439b0f9b859cba13ea25f376303d86770e59b4686bedc52b4706e57442514f0414c6fd3c5b8e71
   languageName: node
   linkType: hard
 
